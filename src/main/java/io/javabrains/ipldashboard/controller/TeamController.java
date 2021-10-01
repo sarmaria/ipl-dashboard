@@ -29,6 +29,7 @@ public class TeamController {
 
     @GetMapping("/team")
     public Iterable<Team> getAllTeam() {
+    	System.out.println("Hello Saranya ");
         return this.teamRepository.findAll();
     }
 
